@@ -106,6 +106,7 @@ Financial_Sales_Analysis_Report_Power_BI.pbix
 
 ## 🙋 About This Project
 
-This project was built to demonstrate practical Power BI skills applied to a real-world financial dataset. It showcases the ability to transform raw sales data into actionable business insights through thoughtful report design and DAX-driven analytics.
+https://github.com/Prateekgupta-08/Financial_Sales_Analysis_Reports/blob/main/Financial_Sales_Business_Use_Case.docx
+https://github.com/Prateekgupta-08/Financial_Sales_Analysis_Reports/blob/main/Financial_Sales_Report.pdf
 
-> 📬 *Feel free to connect or reach out if you'd like to discuss this project or explore collaboration opportunities!*
+> 📬 *Feel free to connect or reach out if you'd like to discuss this project or explore collaboration opportunities!
