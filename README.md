@@ -104,10 +104,12 @@ Financial_Sales_Analysis_Report_Power_BI.pbix
 
 ---
 
-## 🙋 About This Project
+## 🙋 Important Links for Business Use Case
 
 https://github.com/Prateekgupta-08/Financial_Sales_Analysis_Reports/blob/main/Financial_Sales_Business_Use_Case.docx
+
 https://github.com/Prateekgupta-08/Financial_Sales_Analysis_Reports/blob/main/Financial_Sales_Report.pdf
+
 https://github.com/Prateekgupta-08/Financial_Sales_Analysis_Reports/blob/main/Screenshot%202026-05-16%20071726.png
 
 > 📬 *Feel free to connect or reach out if you'd like to discuss this project or explore collaboration opportunities!
