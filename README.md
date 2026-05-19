@@ -1,4 +1,4 @@
-[Business Problem Document](https://github.com/Prateekgupta08/Financial_Sales_Analysis_Reports/blob/main/Financial_Sales_Business_Use_Case.docx)
+[Business Problem Document](https://1drv.ms/w/c/e2c2300c30275623/IQD-BI6RQ1WXSYbSJVKl3Hy8ASIhh9KpDeshZmtu4ZHw8rg?e=BqoxjN)
 # 📊 Financial Sales Analysis Report — Power BI
 
 > **An end-to-end interactive financial dashboard built with Power BI, powered by DAX measures and multi-dimensional sales data.**
