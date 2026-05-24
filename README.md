@@ -1,4 +1,3 @@
-[Business Problem Document](https://1drv.ms/w/c/e2c2300c30275623/IQD-BI6RQ1WXSYbSJVKl3Hy8ASIhh9KpDeshZmtu4ZHw8rg?e=BqoxjN)
 # 📊 Financial Sales Analysis Report — Power BI
 
 > **An end-to-end interactive financial dashboard built with Power BI, powered by DAX measures and multi-dimensional sales data.**
@@ -102,6 +101,16 @@ Financial_Sales_Analysis_Report_Power_BI.pbix
 ├── Sales Report               ← Page 2: Geographic & Product Sales
 └── Profit & Units Report      ← Page 3: Profitability Deep-Dive
 ```
+## Key Insights
+- France is the top profit market at $3.8M; Mexico at $2.9M — gap visible and filterable
+- Government segment drives 44.22% of Total Sales — largest revenue source
+- Paseo is the highest-volume product — supply chain prioritisation signal
+- Time-series analysis reveals Q4 sales acceleration — supports quarterly forecasting
+
+## Tech Stack
+- Power BI Desktop (2-page report, slicers, geo maps, cross-filter)
+- DAX (Total Sales, Total Profit, Average Sales, Max Sales, YoY trends)
+- Data: Financial Sales dataset ($118.73M sales, 5 countries, 5 segments, 6 products)
 
 ---
 
