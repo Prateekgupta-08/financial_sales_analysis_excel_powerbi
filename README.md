@@ -113,6 +113,11 @@ Financial_Sales_Analysis_Report_Power_BI.pbix
 - DAX (Total Sales, Total Profit, Average Sales, Max Sales, YoY trends)
 - Data: Financial Sales dataset ($118.73M sales, 5 countries, 5 segments, 6 products)
 
+## Buisness Problem It Solves
+- Leadership couldn’t see which countries were driving profit vs. dragging it — now it’s one click.
+-  Segment data was siloed — now Government (44%), Small Business (36%), and Enterprise (17%) are visible side-by-side
+-  very business question required a manual data pull — now it’s fully self-service
+
 ---
 
 ## Dasboard Images
