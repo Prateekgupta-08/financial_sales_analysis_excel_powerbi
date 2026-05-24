@@ -1,4 +1,5 @@
 # 📊 Financial Sales Analysis Report — Power BI
+> Power BI | DAX | Financial Analytics | Multi-Country
 
 > **An end-to-end interactive financial dashboard built with Power BI, powered by DAX measures and multi-dimensional sales data.**
 
