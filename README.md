@@ -122,8 +122,3 @@ Financial_Sales_Analysis_Report_Power_BI.pbix
 
 ## Dasboard Images
 <img width="601" height="336" alt="Screenshot 2026-05-20 021543" src="https://github.com/user-attachments/assets/4131fa47-f2e8-4c3c-9911-c25cf316a14e" /> <img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/ea133048-1095-43d4-a6d7-07abebf798a2" />
-
-> 📬 *Feel free to connect or reach out if you'd like to discuss this project or explore collaboration opportunities!
-- Prateek Gupta
-- Email : prateekgupta545@gmail.com
-- Phone : +91-8074780272
