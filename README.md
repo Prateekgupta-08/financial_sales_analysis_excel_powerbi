@@ -210,7 +210,7 @@ Data Analyst with hands-on experience in:
 - Financial Analytics
 - Healthcare Analytics
 
-📧 Email: prateekgupta545@example.com
+📧 Email: prateekgupta545@gmail.com
 
 💼 LinkedIn: https://linkedin.com/in/prateek-k-gupta
 
