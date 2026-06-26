@@ -1,124 +1,226 @@
-# 📊 Financial Sales Analysis Report — Power BI
-> Power BI | DAX | Financial Analytics | Multi-Country
+# 📊 Financial Sales Analysis Dashboard | Power BI
+---
 
-> **An end-to-end interactive financial dashboard built with Power BI, powered by DAX measures and multi-dimensional sales data.**
+# 📌 Project Overview
+
+This project presents an interactive **Financial Sales Analytics Dashboard** built in **Power BI** to analyze sales performance, profitability, product trends, customer segments, and country-wise business performance.
+
+The dashboard enables business stakeholders to monitor KPIs, identify profitable products, compare regional performance, and support strategic decision-making through interactive visualizations.
 
 ---
 
-## 🚀 Project Overview
+# 🎯 Business Problem
 
-This Power BI report delivers a comprehensive financial and sales performance analysis across multiple countries, product lines, and market segments. It features three fully interactive report pages designed to help stakeholders make data-driven decisions at a glance.
+Business leaders require a centralized dashboard to answer questions such as:
 
-| Report Page | Purpose |
-|---|---|
-| 📈 **Financial Dashboard** | High-level KPI overview with trend analysis |
-| 🗺️ **Sales Report** | Geographic and product-level sales breakdown |
-| 💰 **Profit & Units Report** | Profitability and quantity sold deep-dive |
+- Which products generate the highest sales?
+- Which customer segments are most profitable?
+- Which countries contribute the most revenue?
+- How are sales changing over time?
+- What products should receive greater business focus?
+
+This dashboard answers these questions using interactive reports.
+
+---
+# 📂 Dataset
+
+The dataset contains financial sales transactions including:
+- Product
+- Country
+- Segment
+- Sales
+- Gross Sales
+- Profit
+- Quantity Sold
+- Date
+- Discounts
 
 ---
 
-## 🎯 Key Features
+# 🛠 Tools & Technologies
+| Tool | Purpose |
+|-------|----------|
+| Power BI Desktop | Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | KPI Calculations |
+| Data Modeling | Relationship Management |
+| Interactive Visualizations | Business Insights |
 
-- ✅ **DAX Measures** — Custom calculated metrics including Total Sales, Total Profit, Total Gross Sales, and Total Quantity Sold
-- ✅ **Dynamic Slicers** — Filter by Year, Product, Segment, and Country for real-time cross-filtering
-- ✅ **Multi-page Navigation** — Three dedicated report pages for layered storytelling
-- ✅ **Geo Mapping** — Interactive maps visualizing profit and sales by country
-- ✅ **Combo & Waterfall Charts** — Advanced chart types for segment-level profitability analysis
+---
+### KPIs
+
+✔ Total Sales
+
+✔ Total Gross Sales
+
+✔ Total Profit
+
+✔ Total Quantity Sold
+
+### Insights
+- Quarterly Sales Trend
+- Segment-wise Sales
+- Country-wise Profit
+- Product-wise Quantity Sold
 
 ---
 
-## 📐 Report Pages Breakdown
+## Sales Analytics Dashboard
+### Insights
 
-### 1️⃣ Financial Dashboard
-The executive summary page — built around 4 KPI cards and trend visuals.
-
-- **KPI Cards:** Total Sales · Total Gross Sales · Total Profit · Total Quantity Sold
-- **Line Chart:** Sales and profit trends over time (Year/Month hierarchy)
-- **Clustered Column Chart:** Total Profit by Country
-- **Clustered Bar Chart:** Total Quantity Sold by Product
-- **Pie Chart:** Total Sales breakdown by Market Segment
-- **Slicers:** Year · Product · Segment
-
-### 2️⃣ Sales Report
-A geographic and product-focused view for regional performance analysis.
-
-- **Map Visual (x2):** Total Profit by Country · Total Sales by Country
-- **Clustered Column Chart:** Total Sales by Country and Product
-- **100% Stacked Bar Chart:** Segment distribution by Country
-- **Slicers:** Country · Product · Segment
-
-### 3️⃣ Profit & Units Report
-A deep-dive into profitability and unit economics across products and segments.
-
-- **Line & Stacked Column Combo Chart:** Profit trends by Segment over time
-- **Waterfall Chart:** Quantity Sold breakdown by Product and Segment
-- **Donut Chart:** Total Profit share by Country
-- **Pie Chart:** Total Profit by Product
-- **Clustered Bar & Column Charts:** Quantity Sold by Country and Product
+- Product-wise Sales
+- Country-wise Sales
+- Gross Sales by Segment
+- Average Sales
+- Maximum Sales
+- Gross Sales Distribution
 
 ---
 
-## 🛠️ Tools & Technologies
+## Profit & Quantity Dashboard
+### Insights
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Measures-0078D4?style=for-the-badge)
-![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Financial%20Data-green?style=for-the-badge)
-
-- **Platform:** Microsoft Power BI Desktop
-- **Query Language:** DAX (Data Analysis Expressions)
-- **Dataset:** `financials` — containing fields: Country, Product, Segment, Date, Sales, Gross Sales, Profit, Quantity Sold
-- **File Format:** `.pbix`
+- Product-wise Profit
+- Segment-wise Profit
+- Quantity Sold Analysis
+- Country-wise Profit
+- Country-wise Quantity Sold
 
 ---
 
-## 📊 DAX Measures Used
+# 📈 Key Business Insights
+### 💰 Sales Performance
 
-```dax
-Total Sales = SUM(financials[Sales])
-Total Gross Sales = SUM(financials[Gross Sales])
-Total Profit = SUM(financials[Profit])
-Total Quantity Sold = SUM(financials[Units Sold])
+- Government segment contributes the highest revenue.
+- Paseo is the top-selling product.
+- Sales increased significantly during 2014.
+
+---
+
+### 🌍 Regional Analysis
+- United States generates the highest sales.
+- France contributes the highest profit.
+- Canada maintains strong quantity sales.
+
+---
+
+### 📦 Product Performance
+
+- Paseo delivers the highest revenue and profit.
+- Carretera and Montana contribute lower sales.
+- Product mix indicates opportunities for optimization.
+
+---
+
+### 📊 Profitability
+
+- Government segment is the most profitable.
+- Enterprise segment shows comparatively lower profitability.
+- Profit varies significantly across countries.
+
+---
+
+# 📌 Dashboard Features
+
+✅ Interactive Filters
+
+✅ Drill-down Analysis
+
+✅ KPI Cards
+
+✅ Dynamic Charts
+
+✅ Product Analysis
+
+✅ Country Analysis
+
+✅ Segment Analysis
+
+✅ Time Series Analysis
+
+---
+
+# 📚 Skills Demonstrated
+
+- Business Intelligence
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures
+- Financial Analytics
+- Dashboard Development
+- Data Visualization
+- KPI Reporting
+- Storytelling with Data
+
+---
+
+# 📁 Repository Structure
+
+```
+Financial-Sales-Analysis
+│
+├── README.md
+├── Financial_Sales_Analysis.pbix
+├── Financial_Sales_Analysis_Report.pdf
+│
+└── images
+    ├── finance_dashboard_page_1.png
+    ├── finance_dashboard_page_2.png
+    └── finance_dashboard_page_3.png
 ```
 
 ---
 
-## 💡 Skills Demonstrated
+# 🚀 How to Use
 
-- Business Intelligence (BI) Dashboard Design
-- DAX formula writing and measure creation
-- Data storytelling across multiple report pages
-- Cross-filtering and interactive slicer implementation
-- Geographic data visualization using Power BI Maps
-- Advanced chart selection (Waterfall, Combo, 100% Stacked Bar)
-- Financial domain understanding (Gross Sales, Net Profit, Segmentation)
+1. Clone the repository.
+
+```
+git clone https://github.com/YourUsername/Financial-Sales-Analysis.git
+```
+
+2. Open the `.pbix` file using **Power BI Desktop**.
+
+3. Refresh the data if required.
+
+4. Explore the dashboard using slicers and filters.
 
 ---
 
-## 📁 File Structure
+---
+## Dashboard Preview
+<img width="684" height="400" alt="image" src="https://github.com/user-attachments/assets/8a9dcadc-281e-4446-ae9a-c0aaded76bb4" />
+<img width="671" height="388" alt="image" src="https://github.com/user-attachments/assets/ce79f9ea-69f6-4850-9642-ccad506b361d" />
+<img width="673" height="394" alt="image" src="https://github.com/user-attachments/assets/245ad692-99e3-4a08-84b9-a0a7ca0c5986" />
 
-```
-Financial_Sales_Analysis_Report_Power_BI.pbix
-├── Financial Dashboard        ← Page 1: Executive KPI Overview
-├── Sales Report               ← Page 2: Geographic & Product Sales
-└── Profit & Units Report      ← Page 3: Profitability Deep-Dive
-```
-## Key Insights
-- France is the top profit market at $3.8M; Mexico at $2.9M — gap visible and filterable
-- Government segment drives 44.22% of Total Sales — largest revenue source
-- Paseo is the highest-volume product — supply chain prioritisation signal
-- Time-series analysis reveals Q4 sales acceleration — supports quarterly forecasting
 
-## Tech Stack
-- Power BI Desktop (2-page report, slicers, geo maps, cross-filter)
-- DAX (Total Sales, Total Profit, Average Sales, Max Sales, YoY trends)
-- Data: Financial Sales dataset ($118.73M sales, 5 countries, 5 segments, 6 products)
 
-## Buisness Problem It Solves
-- Leadership couldn’t see which countries were driving profit vs. dragging it — now it’s one click.
--  Segment data was siloed — now Government (44%), Small Business (36%), and Enterprise (17%) are visible side-by-side
--  very business question required a manual data pull — now it’s fully self-service
+# 👨‍💻 About Me
+
+**Prateek Gupta**
+
+Data Analyst with hands-on experience in:
+
+- SQL
+- Python
+- Excel
+- Power BI
+- Data Visualization
+- Financial Analytics
+- Healthcare Analytics
+
+📧 Email: prateekgupta545@example.com
+
+💼 LinkedIn: https://linkedin.com/in/prateek-k-gupta
+
+🐙 GitHub: https://github.com/Prateekgupta-08
 
 ---
 
-## Dasboard Images
-<img width="601" height="336" alt="Screenshot 2026-05-20 021543" src="https://github.com/user-attachments/assets/4131fa47-f2e8-4c3c-9911-c25cf316a14e" /> <img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/ea133048-1095-43d4-a6d7-07abebf798a2" />
+# ⭐ If you found this project helpful
+
+Please consider giving it a ⭐ on GitHub!
+
+
+
